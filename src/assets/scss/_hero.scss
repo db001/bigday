@@ -1,0 +1,24 @@
+.bigday-logo {
+  width: 70%;
+}
+.logo {
+  display: inline-block;
+}
+.logo img {
+  width: 40px;
+}
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .bigday-logo {
+    width: 100%;
+  }
+  .logo img {
+    display: none;
+  }
+}
+.main-headline {
+  font-style: italic;
+}
+table.button.instagram table td {
+  background: #8c24e0 !important;
+  border-color: #8c24e0;  
+}
